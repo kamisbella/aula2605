@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula2605</title>
+     <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<h1>Introdução a formulários ⋆౨ৎ˚⟡˖ ࣪</h1>
+    <div class="conteudoformulario">
+        <form>
+         <label for="5"> Nome:</label>
+         <input type="text" name="nome" id="1"   placeholder="digite seu nome"> <br>
+
+         <label for="1">Sobrenome:</label>
+         <input type="text" name="sobrenome" id="2"  placeholder="digite seu sobrenome"> <br>
+
+         <h3>Selecione seu curso:</h3>
+
+         <input type="radio" name="função" id="inf">
+         <label for="inf">Informática</label> <br>
+
+         <input type="radio" name="função" id="adm">
+         <label for="adm">Administração</label> <br>
+
+         <input type="radio" name="função" id="tele">
+         <label for="tele">Eletrônica</label> <br>
+         
+         <input type="radio" name="função" id="cont"><label for="cont">Contabilidade</label> <br>
+        </form>
+    </div>
+
+         <div class="conteúdo-disciplinas">
+            <h3>Escolha as suas disciplinas favoritas:</h3>
+            <input type="checkbox" id="port">
+            <label for="port">Português</label>
+
+            <input type="checkbox" id="mat">
+            <label for="mat">Matemática</label>
+
+            <input type="checkbox" id="lp2">
+            <label for="lp2">Lab Programação 2</label>
+         </div>
+
+         <div class="conteúdo-ano">
+            <h3>Escolha o ano cursado</h3>
+            <select>
+                <option value="pri1">1° Ano</option>
+                <option value="seg">2° Ano</option>
+                <option value="terc">3° Ano</option>
+            </select>
+         </div>
+
+         <textarea rows="10" cols="60" placeholder="Digite aqui a sua mensagem..."></textarea> <br>
+         
+         <button onclick="alert('test')">Enviar dados</button>
+    
+</body>
+</html>

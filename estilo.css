@@ -1,0 +1,18 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: grey;
+    background-color: pink;
+}
+
+h1{
+    color: palevioletred;
+}
+
+.conteúdo-principal{
+    background-color: palevioletred;
+}
+
+.roda-pé{
+    background-color: paleturquoise;
+}
